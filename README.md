@@ -44,13 +44,6 @@
 
 #### What to turn in...
 
-1. **Think Python Chapter 3: Exercises 3.2** \[15 pts; do parts 1 through 4 and submit script for part 4, do not write "do_four" script\]. 
+1. **Think Python Chapter 4: Exercises 4.2.**
 
-   - **Note:** In earlier editions of  the Think Python book this problem was numbered Exercise 3.4, as activities within the chapter were also numbered and the first exercise at the end of the chapter was not numbered starting at 1.  Make sure that you submit the program called "do_four".
-   - Save your program as Exercise_3.2.py (if using Python directly) or Exercise_3.2.ipynb (if using Jupyter Notebook) for submission.
-   
-2. **Think Python Chapter 3: Exercise 3.3.**  
-
-   - **Note** In earlier editions of the Think Python book this was numbered Exercise 3.5, as activities within the chapter were also numbered and the first exercise at the end of the chapter was not numbered starting at 1.
-   - Save your program as Exercise_3.3.py (if using Python directly) or Exercise_3.3.ipynb (if using Jupyter Notebook) for submission.
-
+   - **Note** uses function developed in the Chapter to draw a set of three flowers on a single canvas.
