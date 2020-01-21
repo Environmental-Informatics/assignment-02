@@ -4,18 +4,17 @@
 
 ### Reading Assignment
 
-- [Think Python 2e](https://greenteapress.com/wp/think-python-2e/), Chapters 1-3
-- Asssignments at this point in the class are graded mostly on documentation, so read this answer to [How do I use comments effectively?]( https://wiki.itap.purdue.edu/pages/viewpage.action?pageId=47221326) before submitting your assignment.
+- [Think Python 2e](https://greenteapress.com/wp/think-python-2e/), Chapters 4-6
+- Remember that assignments at this point in the class are graded mostly on documentation, so read this answer to [How do I use comments effectively?]( https://wiki.itap.purdue.edu/pages/viewpage.action?pageId=47221326) before submitting your assignment.
 
 ### Practical Practice
 
-- Complete the tutorial at [Getting Started with Python on Purdue Cluster Computing](https://wiki.itap.purdue.edu/display/environmentalinformatics/Getting+started+with+Python+on+Purdue+Cluster+Computing) to get yourself setup and ready to work through the first three chapters of the Think Python book.
 - If you are new to GitHUB, check out the [Hello World](https://guides.github.com/activities/hello-world/) tutorial from GitHUB to learn the basics.
 
 #### Helpful Hints
-- If you are working on the Scholar cluster through thinlinc running in the web browser, you will not be able to copy from the desktop into thinlinc.  You can either:
-  - Open the firefox browser inside thinlinc (e.g., type "firefox >& /dev/null &" at the Linux terminal command prompt.  The ">& /dev/null" will send warning messages to trash, while the final "&" will run firefox in the background giving you the terminal prompt back - more on this later in the class).  You can then copy and paste between firefox and your teminal and spyder windows.
-  - Install the thinlinc application on your laptop, which will allow you to set the options to allow copying and pasting between thinlinc and the rest of your computer.
+
+- The turtle graphics package is a standard module for current versions of Python (specifically, Anaconda).  There should no longer be a need to follow the instructions for installing the Think Python swampy tools. 
+- For most anaconda installations, the turtle graphics package should work correctly without any environment changes.  
 
 ### The Lab Assignment
 
