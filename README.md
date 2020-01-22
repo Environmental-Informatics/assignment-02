@@ -21,7 +21,7 @@
 #### Getting Started
 
 - Use GitHUB Classroom to download this assignment, and use "git push" to submit your programs.
-- I suggest that you work through Chapters 5 and 6 prior to working on Chapter 4.  The Chapter 4 assignment can be completed without completing those chapters, but information on conditionals (Chapter 5) and fruitful functions (Chapter 6) will increase your understanding of the process of program development in Chapter 4.
+- I suggest that you work through Chapters 5, 6 and 7 prior to working on Chapter 4.  The Chapter 4 assignment can be completed without completing those chapters, but information on conditionals (Chapter 5), fruitful functions (Chapter 6), and iteration (Chapter 7) will increase your understanding of the process of program development in Chapter 4.
 
 #### What to turn in...
 
