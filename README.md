@@ -20,30 +20,22 @@
 
 #### Getting Started
 
-1. Change to the directory where you are going to save all of your class assignments.
-2. Clone this GitHUB repository (e.g., "git clone <http address>.git").  \[for more details, see [Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)\]
-   - You can find the repository address to right side of the repository page, by clicking on the button that says "Clone or download".  
-   - This should open a pulldown menu that says "Clone with HTTPS".  
-   - If the window is labeled "Clone with SSH", then click on the link to the right of that message that says "Use HTTPS".  
-   - Under the words "Use Git or checkout with SVN using the web URL." there is a box that will have the web address of this assignment (https://github.com/Environmental-Informatics/assignment-01.git). Select all and copy, or click on the copy address button to the right of the address.
-   - Paste the address into the "Git clone" command, as shown and press Return/Enter to start the command.
-   - This will create a new directory that has everything you see in the repository.
-3. Change into the new directory that resulted from the clone command (e.g., "cd assignment-01").
-4. Everything you do in this folder can now be tracked and stored with GitHUB.
-5. To capture the current state of your code:
-   - Use the command "git status" to see what has changed.
-   - Red files are changes not tracked by the repositor, green are staged for storage.
-   - Use "git add <filename>" to stage a specific file (will turn from red to green next time you check the status).  Or use "git add ." to stage all files in the current directory (and its sub directories).
-   - Staged files can be committed to the repository using the "git commit" command.  
-     - Using "git commit" by itself will open an editor window where you can add a description of the changes made.  This will probably be emacs, so when done typing the description, then type【Ctrl+x Ctrl+s】or click on the disk icon to save the text, then close the window.
-     - Using "git commit -m "<message>" ", will let you type the message directly on the command line rather than waiting on the editor window to open.
-   - Finally use "git push" to push the code from your local system to the GitHUB repository.  This will require that you provide your GitHUB username and password.  
-   - Once the changes have been pushed, you can see those changes when you reload the GitHUB web site.
-   - You can clone the repository as many times to as many places as you want, by default it will always be the latest version.  However, changes that have not been "staged" to the local repository, "committed" to the local repositry, and "pushed" to the GitHUB repository, will not be reflected in a new clone.
-    - If you edit on multiple locations, you may also have to use "git pull" to pull changes from GitHUB into an older clone of the repository.  Doe this BEFORE you start editing.  If not, you will need to read up on [merging a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request).
+- Use GitHUB Classroom to download this assignment, and use "git push" to submit your programs.
+- I suggest that you work through Chapters 5 and 6 prior to working on Chapter 4.  The Chapter 4 assignment can be completed without completing those chapters, but information on conditionals (Chapter 5) and fruitful functions (Chapter 6) will increase your understanding of the process of program development in Chapter 4.
 
 #### What to turn in...
 
-1. **Think Python Chapter 4: Exercises 4.2.**
+1. **Think Python Chapter 4: Exercise 4.2.**
 
    - **Note** uses function developed in the Chapter to draw a set of three flowers on a single canvas.
+   - Program should draw the three flowers shown in the problem statement.
+   - The turtle package does not work with Jupyter Notebooks by default, instead you need to install the Notebook extension (nbextension) ipyturtle and start your program will a call to the module before you will see output from your program.  I have provided instructions to help at [How do I get turtle graphics to work in my Jupyter Notebook?](https://wiki.itap.purdue.edu/pages/viewpage.action?pageId=139460761).
+
+2. **Think Python Chapter 5: Exercise 5.2.** 
+
+   - Submit a program that solves Part 2 of the problem.
+   - Check out the Python raw_input() function for a way to prompt the user for input.
+   
+3. **Think Python Chapter 6: Exercise 6.5.**
+
+   - Submit a program that prompts the user for two values and then computes the greatest common divisor (GCD).
